@@ -1,12 +1,12 @@
 import cv2
-import os
 import numpy as np
 import time
 
 chars = list(" .:;)}SM#$%@")
 
 FPS = 30
-cap = cv2.VideoCapture("shrek.mp4")
+cap = cv2.VideoCapture("badapple.mp4")
+# cap = cv2.VideoCapture("shrek.mp4")
 
 while True:
     start_frame = time.time()
@@ -25,6 +25,8 @@ while True:
 
     while time.time() - start_frame < 1/FPS:
         pass
+
+
 
 
 
