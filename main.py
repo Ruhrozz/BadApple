@@ -8,7 +8,7 @@ os.system("cls")
 print("Available:")
 
 for n, item in enumerate(os.listdir(path='videos')):
-    print(f" {n+1}.", item.split(".")[0])
+    print(f" {n}.", item.split(".")[0])
 
 idx = int(input("Which one? \n"))
 name = os.listdir(path='videos')[idx]
