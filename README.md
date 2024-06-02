@@ -9,4 +9,4 @@ How to run:
 4. (Optional) Add your own videos in appropriate folder.
 
 
-![](2022-08-03_11-41-05.png?raw=true)
+![](assets/windows_example.png)
